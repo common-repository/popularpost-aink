@@ -1,0 +1,46 @@
+ul#PopularPostAink {
+	overflow:auto;
+	display:block;
+}
+ul#PopularPostAink li {
+	margin:0px;
+	padding:0px;
+	background:transparent;
+	border-bottom:1px solid #cfcfcf;
+	border-right:1px solid transparent;
+	border-left:1px solid transparent;
+}
+ul#PopularPostAink li:hover {
+	border-right:1px solid #cfcfcf;
+	border-left:1px solid #cfcfcf;
+	display:block;
+}
+ul#PopularPostAink li h3 {
+	margin:0px;
+	padding:0px;
+	display:block;
+}
+ul#PopularPostAink li small {
+	font:normal 11px;
+	font-family:Angelina, Helvetica, sans-serif, "Trebuchet MS", sans-serif, Arial, Tahoma;
+	margin-top:2.5px;
+	margin-right:10px;
+	display:block;
+	float:left;
+	padding-left:20px;
+	height:16px;
+}
+ul#PopularPostAink li small.comment {
+	background:url("../images/comment.png") left no-repeat;
+}
+ul#PopularPostAink li small.author {
+	background:url("../images/author.png") left no-repeat;
+}
+ul#PopularPostAink li small.date {
+	background:url("../images/date.png") left no-repeat;
+}
+ul#PopularPostAink li span {
+	float:none;
+	font:lighter 11px Verdana;
+	display:block;
+}
